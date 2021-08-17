@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+.navbar {
+	display: flex;
+	flex: 1;
+
+	height: 80px;
+	background: #be2448;
+	align-items: center;
+	direction: rtl;
+	font-family: 'Noto Kufi Arabic', sans-serif;
+	font-size: 11px;
+}
+.menu-list {
+	display: flex;
+	flex: 1;
+	list-style: none;
+	padding: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+}
+.menu-list a {
+	text-decoration: none;
+	margin-right: -10px;
+}
+.list {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #74162b;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	color: rgb(216, 216, 216);
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+}
+.active {
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #ffffff;
+	color: #000000;
+}
+
+.activation {
+	margin-left: 15px;
+	background: #26c960;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	color: #136530;
+	cursor: pointer;
+}
+.disableExpress {
+	background: #2e2637;
+	color: #c32e52;
+}

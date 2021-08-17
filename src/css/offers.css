@@ -1,0 +1,46 @@
+.container {
+	padding-top: 120px;
+}
+
+.offerHeader {
+	position: absolute;
+	right: 0;
+	left: 0;
+	height: 80px;
+	top: 80px;
+	background-color: #f2f2f2;
+}
+.offerTab {
+	width: 100px !important;
+	margin-left: 15px;
+	background: rgb(230, 230, 230);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #000;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+	text-align: center;
+	transition: 1s;
+}
+.offerTab-2 {
+	width: 100px !important;
+	margin-left: 15px;
+	background: rgb(230, 230, 230);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #000;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 150px;
+	text-align: center;
+	transition: 1s;
+}
